@@ -9,9 +9,9 @@ input validation, and simple game logic.
 - Winner and draw detection
 - Clean board rendering
 
+## Tech
+- Python 3.x, standard library only
+
 ## Run
 ```bash
 python main.py
-
-## Tech
-- Python 3.x, standard library only
