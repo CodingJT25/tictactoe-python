@@ -12,3 +12,6 @@ input validation, and simple game logic.
 ## Run
 ```bash
 python main.py
+
+## Tech
+- Python 3.x, standard library only
