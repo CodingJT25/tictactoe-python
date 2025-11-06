@@ -10,7 +10,7 @@ input validation, and simple game logic.
 - Clean board rendering
 
 ## Tech
-- Python 3.x, standard library only
+- Python 3.14, standard library only
 
 ## Run
 ```bash
