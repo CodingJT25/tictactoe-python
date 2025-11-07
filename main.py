@@ -60,6 +60,11 @@ class TicTacToe:
         self.board[position] = self.current_player
     
     def check_winner(self):
+        """Check all winning lines.
+
+        Returns:
+            "X" or "O" if a player has won; otherwise None.
+        """
         for a,b,c in TicTacToe.WINS:
             s = self.board[a]
             if s != " " and all(self.board[i] == s for i in (a,b,c)):
